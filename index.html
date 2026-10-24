@@ -2,21 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="Split rent and bills fairly by percentage, room size or fixed amounts, rounded to the exact cent." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="theme-color" content="#f6f7f1" />
+    <meta name="apple-mobile-web-app-title" content="SplitRight" />
     <script>
       // Apply the saved theme before first paint to avoid a flash
       try {
         var t = localStorage.getItem('sr-theme')
         if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
         document.documentElement.dataset.theme = t
+        document.querySelector('meta[name=theme-color]').content = t === 'dark' ? '#0a110d' : '#f6f7f1'
       } catch (e) {}
     </script>
     <title>SplitRight</title>

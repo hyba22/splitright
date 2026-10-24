@@ -12,6 +12,8 @@ export function useTheme(): [Theme, () => void] {
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme
+    // Colors the phone's status bar to match the page background
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#0a110d' : '#f6f7f1')
   }, [theme])
 
   const toggle = () => {
