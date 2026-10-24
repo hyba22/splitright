@@ -44,7 +44,7 @@ const en = {
   themeLight: 'Light theme',
   themeDark: 'Dark theme',
   language: 'Language',
-  defaultNames: 'Alex,Sam,Jordan',
+  defaultNames: 'Wassim,Zied,Ahmed',
   footer: 'Made by Hyba',
 }
 
@@ -92,7 +92,7 @@ const fr: Record<Key, string> = {
   themeLight: 'Thème clair',
   themeDark: 'Thème sombre',
   language: 'Langue',
-  defaultNames: 'Alex,Sam,Jordan',
+  defaultNames: 'Wassim,Zied,Ahmed',
   footer: 'Réalisé par Hyba',
 }
 

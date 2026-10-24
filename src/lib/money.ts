@@ -1,5 +1,5 @@
 /** Currencies shown first in the picker. */
-export const FEATURED_CURRENCIES = ['USD', 'EUR', 'DZD']
+export const FEATURED_CURRENCIES = ['TND', 'USD', 'EUR', 'DZD']
 
 /** Number of decimal places (minor units) a currency uses, e.g. USD → 2, JPY → 0, KWD → 3. */
 export function minorDigits(currency: string): number {

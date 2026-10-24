@@ -7,7 +7,7 @@ A website that helps roommates split rent and bills fairly. Split by room size, 
 * **Four ways to split:** equal, percentage, ratio (like room size in m²) and fixed amounts with the rest shared equally.
 * **Exact to the cent:** amounts are calculated in whole cents, and leftover cents go to the people closest to rounding up (largest remainder method). The total always matches.
 * **Clear explanations:** a badge shows who received an extra cent and why.
-* **Most world currencies:** US dollar, euro and Algerian dinar first, with correct decimals for every currency.
+* **Most world currencies:** Tunisian dinar, US dollar, euro and Algerian dinar first, with correct decimals for every currency.
 * **English and French**, plus light and dark themes.
 * **Mobile friendly** layout.
 

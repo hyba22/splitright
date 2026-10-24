@@ -10,7 +10,7 @@ import { splitBill, type Method } from './lib/split'
 function initialState(names: string): FormState {
   return {
     amountText: '1200',
-    currency: 'USD',
+    currency: 'TND',
     people: names.split(',').map((name) => ({ id: newId(), name })),
     method: 'equal',
     inputs: { percent: {}, ratio: {}, fixed: {} },
